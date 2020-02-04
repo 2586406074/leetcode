@@ -5,6 +5,19 @@ import java.util.List;
 
 public class my_string {
     public static void main(String[] args) {
+
+
+        String mStr = new String("www.runoob.com");
+
+        char[] aaa = mStr.toCharArray();
+        for (char item :  aaa){
+            System.out.println(item );
+
+        }
+        //set
+
+
+
 //        List names=new ArrayList<String>();
 //        names.add("1");
 //        names.add("2");
