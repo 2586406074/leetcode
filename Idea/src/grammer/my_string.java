@@ -14,6 +14,31 @@ public class my_string {
             System.out.println(item );
 
         }
+        /*
+        * 把int转化为String,以下三种方式把整形地i转化为字符串s，当然把Double、Float、Long转化为字符串操作一样。
+1.String s=""+i;
+2.String s=Integer.toString(i);
+3.String s=String.valueOf(i);
+
+把String转化为int型。
+1.int i=Integer.parsenInt(s);
+2.int i=Integer.valueOf(s).intValue();
+
+
+把Integer转化为String
+Integer integer=String()
+
+把String转化为Integer
+Integer integer=Integer.valueOf(i)
+把int转化为Integer
+Integer integer=new Integer()
+把Integer转化为int
+int num=Integer.intValue()
+把String转化为BigDecimal
+BigDecimal bd=new BigDecimal(str)
+————————————————
+版权声明：本文为CSDN博主「eacxzm」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/eacxzm/article/details/80064752*/
         //set
 
 
